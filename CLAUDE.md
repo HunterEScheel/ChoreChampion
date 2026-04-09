@@ -2,7 +2,7 @@
 
 ## FastAPI Basic API	Endpoints: join household, fetch chores, submit chore
 ### File structure:
-
+~~~
 backend/
 ├─ main.py
 ├─ models.py
@@ -13,6 +13,7 @@ backend/
 │  ├─ chores.py
 │  ├─ submissions.py
 └─ auth.py
+~~~
 
 ### Tasks
 #### Database connection (database.py)
@@ -30,7 +31,7 @@ Use is_admin to enforce admin-only endpoints
 
 ## Flutter Skeleton
 ### File structure (basic):
-
+~~~
 flutter_app/
 ├─ lib/
 │  ├─ main.dart
@@ -49,7 +50,7 @@ flutter_app/
 │     ├─ device.dart
 │     ├─ member.dart
 │     └─ submission.dart
-
+~~~
 
 ### Tasks
 #### Authentication
