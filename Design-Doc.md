@@ -75,19 +75,20 @@
 
 ## Backend Layer (FastAPI)
 
-Roles:
+### Roles:
 - Handle chore submission validation
 - Calculate rewards dynamically from DifficultyRewards
 - Verify device tokens for auto-login
 - Approve or reject submissions (admin functionality)
 - Cadence enforcement (daily/weekly/on-request)
-Endpoints Example:
+
+### Endpoints Example:
 - POST /households/join → join household via QR or SSID
 - POST /chores/submit → submit chore
 - GET /chores → get available chores for the household
 - POST /submissions/approve → admin approves submission
 - GET /rewards → fetch current earned rewards
-Auth:
+### Auth:
 - Supabase issues JWT tokens
 - Store tokens securely on Flutter devices
 - FastAPI validates tokens for all API requests
