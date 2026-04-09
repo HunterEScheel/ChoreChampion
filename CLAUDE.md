@@ -17,17 +17,17 @@ backend/
 
 ### Tasks
 #### Database connection (database.py)
-Use asyncpg or SQLAlchemy with Supabase connection string.
+- Use asyncpg or SQLAlchemy with Supabase connection string.
 #### Models (models.py)
-Define Pydantic models for request/response validation.
+- Define Pydantic models for request/response validation.
 #### Routers
-households.py → create/join household, list members
-devices.py → register device, auto-login via token
-chores.py → fetch available chores, update active flag (admin only)
-submissions.py → submit chore, approve/reject (admin)
+- households.py → create/join household, list members
+- devices.py → register device, auto-login via token
+- chores.py → fetch available chores, update active flag (admin only)
+- submissions.py → submit chore, approve/reject (admin)
 #### Auth (auth.py)
-Verify Supabase JWT tokens for devices and users
-Use is_admin to enforce admin-only endpoints
+- Verify Supabase JWT tokens for devices and users
+- Use is_admin to enforce admin-only endpoints
 
 ## Flutter Skeleton
 ### File structure (basic):
@@ -53,19 +53,19 @@ flutter_app/
 ~~~
 
 ### Tasks
-Authentication
+#### Authentication
 - Integrate Supabase Auth for login and token management.
 - Store deviceId and JWT token securely (flutter_secure_storage).
-Household Setup
+#### Household Setup
 - QR code scanning for joining household.
 - Optional Wi-Fi SSID verification (hash) for initial registration.
-Chore Management
+#### Chore Management
 - Fetch chores filtered by active and cadence.
 - Submit chores with optional notes or photo proof.
-Admin Panel
+#### Admin Panel
 - View chore submissions from selected day.
 - Update chore active status.
-Rewards Display
+#### Rewards Display
 - Dynamically calculate rewards based on DifficultyRewards
 
 
