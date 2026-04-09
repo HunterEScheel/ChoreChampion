@@ -1,11 +1,5 @@
 # ChoreChampion
 
-## What it is
-ChoreChampion is an organizational chore app providing an easy and intuitive way for 
-families to digitally navigate chore completion and rewards.
-
----
-
 ## Database Structure
 
 ### Households
