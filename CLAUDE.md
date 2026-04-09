@@ -28,9 +28,41 @@ submissions.py → submit chore, approve/reject (admin)
 Verify Supabase JWT tokens for devices and users
 Use is_admin to enforce admin-only endpoints
 
-3	Flutter Skeleton	Authentication, household joining, basic chore list
-4	FastAPI Admin Endpoints	Approve/reject chores, manage chores
-5	Flutter Full UI	Submission screen, admin panel, reward display
-6	Device Auto-login	Store/retrieve deviceId securely, validate token
-7	Testing	Unit tests for backend and frontend integration
-8	Deployment	FastAPI on Fly.io / Supabase Edge Functions optional, Flutter app deployed to App Store/Play Store
+## Flutter Skeleton
+### File structure (basic):
+
+flutter_app/
+├─ lib/
+│  ├─ main.dart
+│  ├─ screens/
+│  │  ├─ login.dart
+│  │  ├─ household_dashboard.dart
+│  │  ├─ chores_list.dart
+│  │  ├─ submission_screen.dart
+│  │  └─ admin_panel.dart
+│  ├─ services/
+│  │  ├─ api_service.dart
+│  │  ├─ auth_service.dart
+│  │  └─ secure_storage_service.dart
+│  └─ models/
+│     ├─ chore.dart
+│     ├─ device.dart
+│     ├─ member.dart
+│     └─ submission.dart
+
+
+### Tasks
+#### Authentication
+Integrate Supabase Auth for login and token management.
+Store deviceId and JWT token securely (flutter_secure_storage).
+#### Household Setup
+QR code scanning for joining household.
+Optional Wi-Fi SSID verification (hash) for initial registration.
+#### Chore Management
+Fetch chores filtered by active and cadence.
+Submit chores with optional notes or photo proof.
+#### Admin Panel
+View chore submissions from selected day.
+Update chore active status.
+#### Rewards Display
+Dynamically calculate rewards based on DifficultyRewards.
