@@ -65,4 +65,15 @@ Submit chores with optional notes or photo proof.
 View chore submissions from selected day.
 Update chore active status.
 #### Rewards Display
-Dynamically calculate rewards based on DifficultyRewards.
+Dynamically calculate rewards based on DifficultyRewards
+
+
+
+## Development Phases
+- FastAPI Basic API	Endpoints: join household, fetch chores, submit chore
+- Flutter Skeleton	Authentication, household joining, basic chore list
+- FastAPI Admin Endpoints	Approve/reject chores, manage chores
+- Flutter Full UI	Submission screen, admin panel, reward display
+- Device Auto-login	Store/retrieve deviceId securely, validate token
+- Testing	Unit tests for backend and frontend integration
+- Deployment	FastAPI on Fly.io / Supabase Edge Functions optional, APK file generated
