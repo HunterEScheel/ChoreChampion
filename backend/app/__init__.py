@@ -1,0 +1,1 @@
+"""ChoreChampion FastAPI backend package."""
