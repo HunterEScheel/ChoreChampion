@@ -1,5 +1,3 @@
-# ChoreChampion
-
 ## Database Structure
 
 ### Households
