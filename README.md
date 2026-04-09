@@ -41,7 +41,7 @@ families to digitally navigate chore completion and rewards.
 
 
 | Chore | Difficulty | Cadence | Active |
-|-------|-----------|-----------------|----------|---------|--------|
+|-------|-----------|---------|--------|
 | Make bed | Easy | daily | true |
 | Take out trash | Easy | weekly | true |
 | Feed pets | Easy | daily | true |
