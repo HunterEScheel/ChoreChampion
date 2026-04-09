@@ -3,7 +3,7 @@
 ## FastAPI Basic API	Endpoints: join household, fetch chores, submit chore
 ### File structure:
 
-[backend/
+<backend/
 ├─ main.py
 ├─ models.py
 ├─ database.py
@@ -12,7 +12,7 @@
 │  ├─ devices.py
 │  ├─ chores.py
 │  ├─ submissions.py
-└─ auth.py]
+└─ auth.py/>
 
 ### Tasks
 #### Database connection (database.py)
