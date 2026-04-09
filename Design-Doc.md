@@ -117,7 +117,3 @@ Store token and deviceId in secure storage
 Subsequent app launches:
  - Check token in secure storage → auto-login
  - Token expiration handled by Supabase refresh mechanism
-### Task 3 - Family settings page for parents (Payment Options, Difficulty, Chores)
-### Task 4 - Chore form for daily submission
-### Task 5 - reporting page for parents to see history
-### Task 6 - implement "split task" for user to be able to say "I did half of this thing"
