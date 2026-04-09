@@ -1,5 +1,3 @@
-# Design
-## ERD
 # ChoreChampion
 
 ## What it is
