@@ -53,20 +53,20 @@ flutter_app/
 ~~~
 
 ### Tasks
-#### Authentication
-Integrate Supabase Auth for login and token management.
-Store deviceId and JWT token securely (flutter_secure_storage).
-#### Household Setup
-QR code scanning for joining household.
-Optional Wi-Fi SSID verification (hash) for initial registration.
-#### Chore Management
-Fetch chores filtered by active and cadence.
-Submit chores with optional notes or photo proof.
-#### Admin Panel
-View chore submissions from selected day.
-Update chore active status.
-#### Rewards Display
-Dynamically calculate rewards based on DifficultyRewards
+Authentication
+- Integrate Supabase Auth for login and token management.
+- Store deviceId and JWT token securely (flutter_secure_storage).
+Household Setup
+- QR code scanning for joining household.
+- Optional Wi-Fi SSID verification (hash) for initial registration.
+Chore Management
+- Fetch chores filtered by active and cadence.
+- Submit chores with optional notes or photo proof.
+Admin Panel
+- View chore submissions from selected day.
+- Update chore active status.
+Rewards Display
+- Dynamically calculate rewards based on DifficultyRewards
 
 
 
