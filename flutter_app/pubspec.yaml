@@ -1,0 +1,35 @@
+name: chore_champion
+description: Family chore tracking and reward management app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  # HTTP + Storage
+  dio: ^5.7.0
+  flutter_secure_storage: ^9.2.4
+  # Navigation
+  go_router: ^14.8.1
+  # QR scanning
+  mobile_scanner: ^6.0.5
+  # Wi-Fi detection
+  network_info_plus: ^6.1.1
+  # Utilities
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  riverpod_generator: ^2.6.5
+
+flutter:
+  uses-material-design: true

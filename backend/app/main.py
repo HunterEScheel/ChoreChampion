@@ -9,7 +9,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.routers import chores, devices, households, rewards, submissions
+from app.routers import chores, devices, households, members, rewards, submissions
 
 
 def _error_envelope(detail: Any) -> dict[str, Any]:
@@ -44,6 +44,7 @@ def create_app() -> FastAPI:
     app.include_router(chores.router, prefix=api_prefix)
     app.include_router(submissions.router, prefix=api_prefix)
     app.include_router(rewards.router, prefix=api_prefix)
+    app.include_router(members.router, prefix=api_prefix)
 
     @app.exception_handler(HTTPException)
     async def http_exc_handler(_req: Request, exc: HTTPException) -> JSONResponse:
